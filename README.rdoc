@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Use rails server from the command line to run this app.
 
-Things you may want to cover:
+Type URL's into browser to run.
 
-* Ruby version
+URL's that can be run in rails server with this program
 
-* System dependencies
+http://localhost:3000/users
 
-* Configuration
+App will display all of the users in the table.
 
-* Database creation
+http://localhost:3000/users/1
 
-* Database initialization
+App will display the first user in the table, or the user with id placed where the 1 is.
 
-* How to run the test suite
+http://localhost:3000/users/999999
 
-* Services (job queues, cache servers, search engines, etc.)
+App will display error message because user is not present in the table.
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
